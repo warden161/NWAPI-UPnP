@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{DA9C35FF-56B8-41CF-A2BE-ABC76D7E4821}</ProjectGuid>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyTitle>NWAPI_UPnP</AssemblyTitle>
+    <Product>NWAPI UPnP Tool</Product>
+    <Copyright>Copyright ©  2022</Copyright>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PluginAPI, Version=12.0.0-beta8, Culture=neutral, PublicKeyToken=null">
+      <HintPath>D:\warden161\NWAPI_References\PluginAPI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Open.Nat" Version="2.1.0" />
+  </ItemGroup>
+</Project>

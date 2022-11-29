@@ -1,0 +1,15 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWAPI_UPnP", "NWAPI_UPnP\NWAPI_UPnP.csproj", "{DA9C35FF-56B8-41CF-A2BE-ABC76D7E4821}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA9C35FF-56B8-41CF-A2BE-ABC76D7E4821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA9C35FF-56B8-41CF-A2BE-ABC76D7E4821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA9C35FF-56B8-41CF-A2BE-ABC76D7E4821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA9C35FF-56B8-41CF-A2BE-ABC76D7E4821}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
