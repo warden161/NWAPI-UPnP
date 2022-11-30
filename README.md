@@ -1,3 +1,5 @@
+# Useless plugin, basegame already does this.
+
 # NWAPI UPnP Tool
 This is a UPnP (Universal Plug n' Play) tool for NWAPI.
 
